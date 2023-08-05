@@ -1,0 +1,72 @@
+.sub-page {
+  height: 100vh;
+}
+
+.sub-page .title {
+  color: #3d9bd4;
+  padding: 2rem;
+  font-size: 3rem;
+  font-family: "Permanent Marker", cursive;
+}
+
+.top-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-heading .title-img {
+  padding: 5rem 2rem 5rem 0;
+  height: 3rem;
+  width: 3rem;
+}
+
+.sub-page .container {
+  margin: 0 12rem;
+  height: 70vh;
+}
+
+.sub-page span {
+  font-size: 2.5rem;
+  color: #3d9bd4;
+  font-weight: 700;
+}
+
+.sub-page h2 {
+  padding-left: 5rem;
+}
+
+.sub-page .plan-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-page .sub-cards {
+  list-style-type: none;
+  border: 2px solid black;
+  margin: 2rem;
+  border-radius: 2rem;
+  width: 18rem;
+  height: 22rem;
+}
+
+.sub-page .sub-cards p {
+  margin-right: 1rem;
+}
+
+.sub-page .btn {
+  padding: 0.5rem 1rem;
+  background-color: #3d9bd4;
+  text-align: center;
+  margin: 1rem 4rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 2px 3px #333;
+}
+
+.sub-page .btn:hover {
+  color: black;
+  opacity: 0.8;
+  cursor: pointer;
+  zoom: 98%;
+}
